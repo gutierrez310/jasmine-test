@@ -1,7 +1,7 @@
 {
   "name": "webdriverio-jasmine-test",
   "version": "1.0.0",
-  "description": "## execute specs Command: ./node_modules/.bin/wdio wdio.conf.js",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@wdio/cli": "^6.0.8",
+    "@wdio/cli": "^6.0.7",
     "@wdio/jasmine-framework": "^6.0.7",
     "@wdio/local-runner": "^6.0.7",
     "@wdio/mocha-framework": "^6.0.7",
@@ -19,17 +19,5 @@
     "chromedriver": "^80.0.1",
     "jasmine": "^3.5.0",
     "wdio-chromedriver-service": "^5.0.2"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gutierrez310/jasmine-test.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gutierrez310/jasmine-test/issues"
-  },
-  "homepage": "https://github.com/gutierrez310/jasmine-test#readme"
+  }
 }
